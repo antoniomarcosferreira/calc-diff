@@ -127,7 +127,7 @@ func main() {
 
 				Example to run:
 
-				comparTest https://rt-prod.taxweb.com.br:443/taxgateway/webapi/taxrules/calctaxes https://rt-extrafarma.taxweb.com.br:443/taxgateway/webapi/taxrules/calctaxes
+				./compar tests.csv https://rt-prod.taxweb.com.br:443/taxgateway/webapi/taxrules/calctaxes https://rt-extrafarma.taxweb.com.br:443/taxgateway/webapi/taxrules/calctaxes
 	*/
 	start := time.Now()
 	filePath := os.Args[1]
